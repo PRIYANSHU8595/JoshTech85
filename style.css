@@ -614,6 +614,7 @@ form {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  font-style: 'Roboto' !important;
 }
 contact-input {
   flex: 1;
@@ -722,5 +723,6 @@ contact-input {
       border: none;
       border-top: 2px solid #ffffff;
     }
+
 
 
