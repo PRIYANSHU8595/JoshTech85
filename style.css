@@ -615,8 +615,7 @@ form {
   gap: 20px;
   flex-wrap: wrap;
 }
-
-.contact-input {
+contact-input {
   flex: 1;
   padding: 15px;
   border: none;
@@ -626,30 +625,29 @@ form {
   color: black;
   min-width: 240px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
 }
 
 .contact-textarea {
-  font-style: 'Roboto';
+   font-family: 'Roboto', sans-serif;
   padding: 15px;
   border: none;
   border-radius: 10px;
   font-size: 14px;
   background-color: white;
-  color: black;
   min-width: 240px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   resize: none;
   height: 150px;
-  font-family: 'Roboto', sans-serif;
 }
 
 .contact-button {
+  font-family: 'Roboto', sans-serif;
   width: 220px;
   padding: 15px;
   font-size: 16px;
   color: white;
-  background-color:   #1AC073;
+  background-color:#1AC073;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -724,4 +722,5 @@ form {
       border: none;
       border-top: 2px solid #ffffff;
     }
+
 
