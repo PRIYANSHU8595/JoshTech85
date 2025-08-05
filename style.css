@@ -273,7 +273,6 @@ position: absolute;
   border-radius: 12px 0 0 0;
   padding: 5px 3px 5px 3px;
   letter-spacing: -0.012em;
-  /* box-shadow: 0 2px 8px rgba(0,0,0,0.06); */
 } 
 .Popular-item {
   margin-top: 60px;
@@ -310,12 +309,12 @@ position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* cursor: pointer;
-  z-index: 2; */
+  cursor: pointer;
+  z-index: 2;
 }
 .arrow-btn-right:hover {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
-  transform: scale(1.05);       /* slightly enlarge on hover */
+   transform: scale(1.05);       /* slightly enlarge on hover */
 }
 .slider-class{
   position: relative;
@@ -665,12 +664,12 @@ form {
  footer {
       background-color: #1AC073;
       padding: 20px 40px;
-    
     }
     
     .footer-container {
       margin-left: 50px;
       margin-right: 50px;
+      height: auto;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -723,5 +722,3 @@ form {
       border: none;
       border-top: 2px solid #ffffff;
     }
-
-
