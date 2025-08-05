@@ -626,6 +626,7 @@ form {
   color: black;
   min-width: 240px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  font-family: 'Roboto', sans-serif;
 }
 
 .contact-textarea {
@@ -640,6 +641,7 @@ form {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   resize: none;
   height: 150px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .contact-button {
@@ -722,3 +724,4 @@ form {
       border: none;
       border-top: 2px solid #ffffff;
     }
+
